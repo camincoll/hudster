@@ -23,5 +23,8 @@ module Hudster
     # For Foundation 5
     config.assets.precompile += %w( vendor/modernizr )
 
+    # for static Assests? CJI
+    config.serve_static_assets = true
+
   end
 end

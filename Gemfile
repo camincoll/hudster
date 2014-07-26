@@ -20,3 +20,11 @@ group :development do
   gem 'quiet_assets'
   gem 'rails_layout'
 end
+
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+end
